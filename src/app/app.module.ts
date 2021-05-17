@@ -8,7 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
-import { Product, ProductService } from './shared/services';
+import { ProductService } from './shared/services';
 import { RouterModule } from '@angular/router';
 import { routes } from './app-routing';
 

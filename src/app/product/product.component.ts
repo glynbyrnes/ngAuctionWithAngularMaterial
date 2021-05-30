@@ -11,7 +11,7 @@ import { Product, ProductService } from '../shared/services';
 })
 export class ProductComponent implements OnInit {
 
-  product$: Observable<Product> ;
+  product$: Observable<Product | undefined> ;
   suggestedProducts$: Observable<Product[]>;
 
   constructor(private route: ActivatedRoute, private productService: ProductService) {
